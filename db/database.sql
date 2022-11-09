@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS andrestechDB;
+
+USE andrestechDB;
+CREATE TABLE users (
+    id INT (11) NOT AUTO_INCREMENT,
+    name VARCHAR (80) DEFAULT NULL,
+    email  VARCHAR (40) DEFAULT NULL,
+    PRIMARY KEY (id)
+)
